@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="secGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <filter id="shadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#06b6d4" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Ring -->
+  <circle cx="100" cy="100" r="92" fill="#080d22" stroke="url(#secGrad)" stroke-width="4" filter="url(#shadow2)"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+
+  <!-- Inner Circle Header -->
+  <circle cx="100" cy="100" r="74" fill="#040714" stroke="url(#secGrad)" stroke-width="2"/>
+
+  <!-- Top Arc Banner Text -->
+  <path id="arcTop27" d="M 28,100 A 72,72 0 0,1 172,100" fill="none"/>
+  <text font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="700" fill="#06b6d4" letter-spacing="1.8" text-anchor="middle">
+    <textPath href="#arcTop27" startOffset="50%">INFORMATION SECURITY</textPath>
+  </text>
+
+  <!-- Center Heading -->
+  <text x="100" y="94" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="1">ISO</text>
+  <text x="100" y="118" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#38bdf8" text-anchor="middle">27001:2022</text>
+  <text x="100" y="136" font-family="'Inter', sans-serif" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle" letter-spacing="1.5">CERTIFIED</text>
+
+  <!-- 5 Stars Badge Accent -->
+  <g fill="#06b6d4" transform="translate(100, 154) scale(0.7)">
+    <polygon points="0,-7 2,-2 7,-2 3,1 5,6 0,3 -5,6 -3,1 -7,-2 -2,-2" transform="translate(-36,0)"/>
+    <polygon points="0,-7 2,-2 7,-2 3,1 5,6 0,3 -5,6 -3,1 -7,-2 -2,-2" transform="translate(-18,0)"/>
+    <polygon points="0,-7 2,-2 7,-2 3,1 5,6 0,3 -5,6 -3,1 -7,-2 -2,-2" transform="translate(0,0)"/>
+    <polygon points="0,-7 2,-2 7,-2 3,1 5,6 0,3 -5,6 -3,1 -7,-2 -2,-2" transform="translate(18,0)"/>
+    <polygon points="0,-7 2,-2 7,-2 3,1 5,6 0,3 -5,6 -3,1 -7,-2 -2,-2" transform="translate(36,0)"/>
+  </g>
+</svg>

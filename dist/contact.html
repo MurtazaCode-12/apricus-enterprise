@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Apricus Lab</title>
+  <meta name="description" content="Request a demo or start a conversation about AI-powered EMS, NDR, and SD-WAN with Apricus Lab.">
+  <link rel="icon" href="assets/logo/mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="preloader" class="preloader">
+    <div class="preloader-content">
+      <img src="assets/logo/logo-preloader.png" alt="Apricus Labs Loading..." class="preloader-logo cool-pulse">
+    </div>
+  </div>
+
+  <div class="nav-overlay" id="nav-overlay"></div>
+
+  <header class="site-header is-scrolled" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="assets/logo/logo.png" alt="Apricus Labs">
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" aria-label="Open menu">
+        <span></span>
+      </button>
+      <nav class="nav-panel" id="nav-panel" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="about.html">About Us</a></li>
+          <li class="nav-dropdown">
+            <button class="nav-dropdown-toggle" type="button" aria-expanded="false">Solutions ▾</button>
+            <ul class="nav-dropdown-menu">
+              <li><a href="ems.html">AI-Powered EMS</a></li>
+              <li><a href="ndr.html">AI-Powered NDR</a></li>
+              <li><a href="sd-wan.html">SD-WAN</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html" class="is-active">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="solution-hero page-hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="hero-grid"></div>
+      </div>
+      <div class="container solution-hero-layout">
+        <div>
+          <p class="eyebrow">Contact Us</p>
+          <h1>Let’s build resilient infrastructure together</h1>
+          <p class="solution-hero-copy">Share your environment, constraints, and outcomes. We respond to serious enterprise and government enquiries across EMS, NDR, and SD-WAN.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="contact">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">Get in touch</p>
+          <h2 class="section-title">Request a demo or start a conversation</h2>
+          <p class="lede">Tell us about your infrastructure challenge. We will route your enquiry to the right practice — EMS, NDR, or SD-WAN.</p>
+          <ul class="contact-meta">
+            <li>
+              <small>Email</small>
+              <a href="mailto:info@apricuslabs.in">info@apricuslabs.in</a>
+            </li>
+            <li>
+              <small>Dr Shrikant Bankar (Founder – Chairman &amp; Director)</small>
+              <a href="tel:+919850689911">+91 98506 89911</a>
+            </li>
+            <li>
+              <small>Satish Karajagi (Chief Executive Officer – CEO)</small>
+              <a href="tel:+917875530123">+91 78755 30123</a>
+            </li>
+          </ul>
+        </div>
+        <form class="form reveal" id="contact-form" novalidate>
+          <label>
+            Name
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <span class="form-error" data-error-for="name"></span>
+          </label>
+          <label>
+            Email
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <span class="form-error" data-error-for="email"></span>
+          </label>
+          <label>
+            Organisation
+            <input id="organisation" name="organisation" type="text" autocomplete="organization" required>
+            <span class="form-error" data-error-for="organisation"></span>
+          </label>
+          <label>
+            Interest
+            <select id="interest" name="interest" required>
+              <option value="">Select a solution</option>
+              <option>Request EMS Demo</option>
+              <option>Request NDR Demo</option>
+              <option>Request SD-WAN Demo</option>
+              <option>General Enquiry</option>
+              <option>Other</option>
+            </select>
+            <span class="form-error" data-error-for="interest"></span>
+          </label>
+          <label>
+            Message
+            <textarea id="message" name="message" required></textarea>
+            <span class="form-error" data-error-for="message"></span>
+          </label>
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p class="form-status" id="form-status" tabindex="-1">Thank you. This form is frontend-only for now; please also write to the email listed until a live inbox is connected.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="footer-logo-banner reveal">
+    <div class="container">
+      <div class="footer-logo-wrap">
+        <div class="footer-logo-line-left"></div>
+        <img src="assets/logo/logo.png" alt="Apricus Lab" class="footer-banner-logo">
+        <div class="footer-logo-line-right"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>Apricus Lab</h2>
+          <p>AI-driven enterprise infrastructure — unified observability, network detection and response, and software-defined WAN for intelligent, resilient operations.</p>
+        </div>
+        <div>
+          <h3>Solutions</h3>
+          <ul>
+            <li><a href="ems.html">AI-Powered EMS</a></li>
+            <li><a href="ndr.html">AI-Powered NDR</a></li>
+            <li><a href="sd-wan.html">SD-WAN</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Company</h3>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="mailto:info@apricuslabs.in">info@apricuslabs.in</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-stamps flex gap-6 items-center justify-center py-4 mt-6 border-t border-white/10">
+        <a href="/Make in india.pdf" target="_blank" rel="noopener noreferrer">
+          <img src="assets/logo/stamp-make-in-india.png" alt="Make in India" class="w-16 h-16 object-contain hover:scale-105 transition-transform cursor-pointer" style="height:38px;width:auto;object-fit:contain;">
+        </a>
+        <a href="/APRICUS LABS PRIVATE LIMITED 9001.pdf" target="_blank" rel="noopener noreferrer">
+          <img src="assets/logo/stamp-iso-9001.png" alt="ISO 9001" class="w-16 h-16 object-contain hover:scale-105 transition-transform cursor-pointer" style="height:38px;width:auto;object-fit:contain;">
+        </a>
+        <a href="/APRICUS LABS PRIVATE LIMITED 27001 final icv.pdf" target="_blank" rel="noopener noreferrer">
+          <img src="assets/logo/stamp-iso-27001.png" alt="ISO 27001" class="w-16 h-16 object-contain hover:scale-105 transition-transform cursor-pointer" style="height:38px;width:auto;object-fit:contain;">
+        </a>
+      </div>
+      <p class="copyright">© <span id="year">2026</span> Apricus Lab. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

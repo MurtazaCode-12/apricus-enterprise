@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Services — Apricus Labs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Heartbeat Logo Preloader -->
+  <div id="preloader" class="preloader" aria-hidden="true">
+    <div class="preloader-content">
+      <div class="heartbeat-logo-wrapper">
+        <img src="assets/logo/logo-preloader.png" alt="Apricus Labs" class="heartbeat-logo">
+      </div>
+    </div>
+  </div>
+  <div class="nav-overlay" id="nav-overlay"></div>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="assets/logo/logo.png" alt="Apricus Labs">
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" aria-label="Open menu">
+        <span></span>
+      </button>
+      <nav class="nav-panel" id="nav-panel" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="about.html">About Us</a></li>
+          <li class="nav-dropdown">
+            <button class="nav-dropdown-toggle" type="button" aria-expanded="false">Solutions ▾</button>
+            <ul class="nav-dropdown-menu">
+              <li><a href="ems.html">AI-Powered EMS</a></li>
+              <li><a href="ndr.html">AI-Powered NDR</a></li>
+              <li><a href="sd-wan.html">SD-WAN</a></li>
+            </ul>
+          </li>
+          <li class="nav-dropdown">
+            <button class="nav-dropdown-toggle" type="button" aria-expanded="false" aria-selected="true">AI Services ▾</button>
+            <ul class="nav-dropdown-menu">
+              <li><a href="ai-services.html" class="active">AI Services &amp; Implementation</a></li>
+              <li><a href="government-ai.html">AI Adoption for Government</a></li>
+              <li><a href="public-ai.html">Public Skilling</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="orb orb-1"></div><div class="orb orb-2"></div><div class="orb orb-3"></div>
+    <div class="hero-grid"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Apricus Labs &middot; AI Services</div>
+    <h1>We don't just advise on AI.<br>We <span class="gradient">build it with you.</span></h1>
+    <p>From strategy through production deployment, Apricus delivers full-stack AI solutions — custom LLMs, agentic workflows, RAG architectures, and traditional ML — engineered for your enterprise reality.</p>
+    <div class="hero-pillars">
+      <div class="pillar"><span class="pillar-icon">◇</span><span class="pillar-text">Strategy &amp; Roadmapping</span></div>
+      <div class="pillar-divider"></div>
+      <div class="pillar"><span class="pillar-icon">⬡</span><span class="pillar-text">Build &amp; Deploy</span></div>
+      <div class="pillar-divider"></div>
+      <div class="pillar"><span class="pillar-icon">◎</span><span class="pillar-text">Agentic &amp; Gen AI</span></div>
+      <div class="pillar-divider"></div>
+      <div class="pillar"><span class="pillar-icon">⊞</span><span class="pillar-text">Govern &amp; Scale</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- STRATEGIC CONSULTING -->
+<section class="section-light" id="consulting">
+  <div class="container">
+    <div class="section-eyebrow">Strategic Consulting</div>
+    <div class="section-title">Turn AI ambiguity into a clear roadmap</div>
+    <div class="section-subtitle">We assess where you stand, identify high-value opportunities, and build the business case — before a single line of code is written.</div>
+    <div class="card-grid card-grid-2">
+      <div class="card">
+        <div class="card-icon card-icon-indigo">→</div>
+        <h3>AI Strategy &amp; Vision</h3>
+        <p>Align AI investments with business objectives. We help you define what AI means for your organization, select the right platforms, and build executive consensus around a clear, funded strategy.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon card-icon-cyan">◈</div>
+        <h3>Maturity Assessment</h3>
+        <p>Our proprietary assessment framework evaluates your organization across multiple dimensions — from data readiness and tech stack to skills, governance, and strategic alignment — and gives you a precise map of where you are and what to do next.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon card-icon-amber">$</div>
+        <h3>Opportunity &amp; Business Case</h3>
+        <p>Identify the AI initiatives that will generate the most value, quantify ROI for each, and build investment-grade business cases that win budget approval from the board.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon card-icon-indigo">⟳</div>
+        <h3>Implementation Roadmap</h3>
+        <p>Walk away with a phased plan — quick wins in weeks, strategic initiatives sequenced by feasibility and impact, and a governance structure to keep everything on track.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- IMPLEMENTATION SERVICES -->
+<section class="section-white" id="implementation">
+  <div class="container">
+    <div class="section-eyebrow">Implementation</div>
+    <div class="section-title">From custom LLMs to autonomous agents</div>
+    <div class="section-subtitle">We deliver production-grade AI systems, not just proofs of concept. Every solution is engineered for enterprise integration, security, and scale.</div>
+    <div class="card-grid card-grid-3">
+      <div class="card" style="border-top:3px solid var(--indigo)">
+        <h3>Tailored LLM Solutions</h3>
+        <p>Industry-specific fine-tuning across leading foundation models. Enterprise-grade integration, data sovereignty, and security-first deployments — on cloud or on-premises.</p>
+      </div>
+      <div class="card" style="border-top:3px solid var(--cyan)">
+        <h3>RAG AI Architecture</h3>
+        <p>Advanced retrieval-augmented generation with intelligent search, hybrid retrieval strategies, dynamic knowledge bases, and built-in source verification and fact-checking.</p>
+      </div>
+      <div class="card" style="border-top:3px solid var(--amber)">
+        <h3>Agentic AI Systems</h3>
+        <p>Goal-oriented agents that plan, execute, and coordinate across tasks — with configurable autonomy levels, human-in-the-loop safety boundaries, and multi-agent orchestration.</p>
+      </div>
+      <div class="card">
+        <h3>Predictive Analytics</h3>
+        <p>Time series forecasting, anomaly detection, and risk assessment models that turn your data into forward-looking business intelligence.</p>
+      </div>
+      <div class="card">
+        <h3>Computer Vision</h3>
+        <p>Object detection, video analytics, and automated quality control systems for manufacturing, operations, and field environments.</p>
+      </div>
+      <div class="card">
+        <h3>NLP &amp; Recommendation</h3>
+        <p>Sentiment analysis, document classification, and intelligent recommendation engines tailored to your domain and customer behaviour.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- APPROACH -->
+<section class="section-dark" id="approach">
+  <div class="container">
+    <div class="section-eyebrow">Our Approach</div>
+    <div class="section-title" style="color:#fff">From strategy to production — we build what we recommend</div>
+    <div class="section-subtitle">Not just strategy, not just POCs — we deliver production-grade AI systems with long-term engagements. We stay until AI is embedded in your operations.</div>
+    <div class="process">
+      <div class="process-step">
+        <h4>Discover &amp; Assess</h4>
+        <p>AI maturity audit. Data landscape analysis. Opportunity identification and business case development with ROI projections.</p>
+      </div>
+      <div class="process-step">
+        <h4>Architect &amp; Govern</h4>
+        <p>Solution design across the AI stack. Security and compliance framework. Integration architecture. Governance model and operating structure.</p>
+      </div>
+      <div class="process-step">
+        <h4>Build &amp; Deploy</h4>
+        <p>Custom model development. Production deployment with enterprise integration — APIs, workflows, user training, and change management.</p>
+      </div>
+      <div class="process-step">
+        <h4>Optimize &amp; Evolve</h4>
+        <p>Continuous model monitoring and retraining. Performance and cost optimization. Governance compliance. Scale to additional use cases.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERTISE -->
+<section class="section-light" id="expertise">
+  <div class="container">
+    <div class="section-eyebrow">Deep Expertise</div>
+    <div class="section-title">Full-stack AI capability across platforms</div>
+    <div class="section-subtitle">We work across every layer of the AI stack, from foundation models to cloud infrastructure to production MLOps.</div>
+    <div class="card-grid card-grid-2">
+      <div class="card">
+        <h3>Foundation Models &amp; LLMs</h3>
+        <p>Deep experience across all leading foundation models — fine-tuning, prompt engineering, RAG, and production deployment at enterprise scale.</p>
+      </div>
+      <div class="card">
+        <h3>Agentic &amp; Orchestration</h3>
+        <p>Multi-agent architectures, autonomous workflow design, and orchestration across the leading agentic frameworks and platforms.</p>
+      </div>
+      <div class="card">
+        <h3>Cloud AI Platforms</h3>
+        <p>Certified expertise across AWS, Azure, and GCP AI services — plus sovereign and air-gapped deployments for regulated industries.</p>
+      </div>
+      <div class="card">
+        <h3>ML &amp; Data Science</h3>
+        <p>Traditional ML, deep learning, MLOps, and data engineering — from experimentation through production-grade pipelines.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="section-white">
+  <div class="container">
+    <div class="section-eyebrow">Industry Experience</div>
+    <div class="section-title">Proven across sectors that demand precision</div>
+    <div class="section-subtitle">We bring domain knowledge to every engagement — not just technical skills, but an understanding of how your industry works.</div>
+    <div class="card-grid card-grid-3">
+      <div class="card" style="text-align:center;padding:2.5rem 1.5rem">
+        <div style="font-size:2rem;margin-bottom:.75rem">🏥</div>
+        <h3>Healthcare &amp; Life Sciences</h3>
+        <p>Clinician workflows, regulatory compliance, patient engagement, clinical operations</p>
+      </div>
+      <div class="card" style="text-align:center;padding:2.5rem 1.5rem">
+        <div style="font-size:2rem;margin-bottom:.75rem">⚡</div>
+        <h3>Energy &amp; Infrastructure</h3>
+        <p>Asset management, predictive maintenance, grid analytics, trading optimization</p>
+      </div>
+      <div class="card" style="text-align:center;padding:2.5rem 1.5rem">
+        <div style="font-size:2rem;margin-bottom:.75rem">🏭</div>
+        <h3>Manufacturing</h3>
+        <p>Quality control, supply chain, commercial excellence, compliance automation</p>
+      </div>
+      <div class="card" style="text-align:center;padding:2.5rem 1.5rem">
+        <div style="font-size:2rem;margin-bottom:.75rem">🏛️</div>
+        <h3>Government</h3>
+        <p>Citizen services, workforce capability, document automation, data-driven governance</p>
+      </div>
+      <div class="card" style="text-align:center;padding:2.5rem 1.5rem">
+        <div style="font-size:2rem;margin-bottom:.75rem">🏢</div>
+        <h3>Enterprise Functions</h3>
+        <p>Finance, HR, IT operations, procurement, customer service</p>
+      </div>
+      <div class="card" style="text-align:center;padding:2.5rem 1.5rem">
+        <div style="font-size:2rem;margin-bottom:.75rem">🎓</div>
+        <h3>Education &amp; Skilling</h3>
+        <p>AI-augmented learning, large-scale workforce development, assessment systems</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESPONSIBLE AI -->
+<section class="section-dark" id="trust">
+  <div class="container">
+    <div class="section-eyebrow">Responsible AI</div>
+    <div class="section-title" style="color:#fff">AI you can trust — governed, secured, optimized</div>
+    <div class="section-subtitle">Every solution we build is underpinned by a rigorous responsible AI framework covering transparency, risk management, governance, security, and cost control.</div>
+    <div class="card-grid card-grid-3">
+      <div class="card card-dark">
+        <h3>Governance &amp; Compliance</h3>
+        <p>Centralized model registry, automated policy enforcement, audit trails, and alignment with international AI standards and regulations.</p>
+      </div>
+      <div class="card card-dark">
+        <h3>Security &amp; Safety</h3>
+        <p>On-premises and air-gapped deployment options. Prompt filtering, output validation, red teaming, adversarial testing, and human-in-the-loop for high-risk decisions.</p>
+      </div>
+      <div class="card card-dark">
+        <h3>Cost Optimization</h3>
+        <p>Real-time usage tracking, right-sizing intelligence, budget controls, and ROI dashboards — delivering 30–40% cost reduction on typical AI workloads.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <h2>Ready to make AI part of your DNA?</h2>
+  <p>We stay for the long haul because real transformation takes commitment. Let's start the conversation.</p>
+  <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+  <a href="government-ai.html" class="btn btn-outline">Government Services →</a>
+</section>
+
+<div class="footer-logo-banner reveal">
+  <div class="container">
+    <div class="footer-logo-wrap">
+      <img src="assets/logo/logo.png" alt="Apricus Labs" class="footer-banner-logo">
+      <div class="footer-logo-line"></div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="copyright">© <span id="year">2026</span> Apricus Labs. All rights reserved. &nbsp;|&nbsp; <a href="ai-services.html">AI Services</a> &nbsp;·&nbsp; <a href="government-ai.html">Government AI</a> &nbsp;·&nbsp; <a href="public-ai.html">Public Skilling</a></p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

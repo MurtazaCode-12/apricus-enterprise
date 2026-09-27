@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="SD-WAN connectivity">
+  <rect width="800" height="600" fill="#0c1228"/>
+  <circle cx="200" cy="300" r="24" fill="#4f46e5"/>
+  <circle cx="400" cy="180" r="24" fill="#06b6d4"/>
+  <circle cx="400" cy="420" r="24" fill="#06b6d4"/>
+  <circle cx="600" cy="300" r="24" fill="#4f46e5"/>
+  <path d="M224 300 H376 M424 204 L576 276 M424 396 L576 324" stroke="rgba(255,255,255,0.25)" stroke-width="2" stroke-dasharray="8 4"/>
+</svg>
